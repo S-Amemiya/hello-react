@@ -10,4 +10,4 @@ server.get('/', (req, res) => {
   res.send('<!doctype html>\n' + html);
 })
 
-server.listen(3000);
+server.listen(process.env.PORT || 5000);
