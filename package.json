@@ -10,6 +10,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
+    "postinstall": "npm run build",
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
