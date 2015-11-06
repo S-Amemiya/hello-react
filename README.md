@@ -11,3 +11,6 @@ Boilerplate for React
 
 ## Start
     $ npm start
+
+## Deployed in Heroku
+[sa-react-starter](https://sa-react-starter.herokuapp.com/)
