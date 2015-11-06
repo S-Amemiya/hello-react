@@ -1,12 +1,13 @@
-hello-react
+react-starter
 =====
 
-Template for react
+Boilerplate for React
 
-## Run
-
+## Setup
     $ npm install
-    $ npm start
 
-## Test deployment to heroku
-[hello-react.herokuapp.com](http://hello-react.herokuapp.com/)
+## Build
+    $ npm run Build
+
+## Start
+    $ npm start

@@ -6,7 +6,7 @@ class Html extends Component {
       <html className="no-js" lang="">
       <head>
         <meta charSet="utf-8" />
-        <title>hello-react</title>
+        <title>react-starter</title>
       </head>
       <body>
         hello, react
