@@ -13,9 +13,9 @@ gulp.task('clean', () => {
 
 gulp.task('server', (callback) => {
   webpack(webpackConfig, (err, stats) => {
-      if(err) throw new plugins.util.PluginError('webpack', err);
-      plugins.util.log('[server]', stats.toString());
-      callback();
+    if(err) throw new plugins.util.PluginError('webpack', err);
+    plugins.util.log('[server]', stats.toString());
+    callback();
   });
 });
 
