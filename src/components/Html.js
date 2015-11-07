@@ -1,6 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 
-class Html extends Component {
+class Html extends React.Component {
   render() {
     return (
       <html className="no-js" lang="">
@@ -9,7 +9,8 @@ class Html extends Component {
         <title>react-starter</title>
       </head>
       <body>
-        hello, react
+        <div id="app" />
+        <script src="/app.js"></script>
       </body>
       </html>
     );

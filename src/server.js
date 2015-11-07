@@ -5,6 +5,8 @@ import Html from './components/Html';
 
 const server = global.server = express();
 
+server.use(express.static('build/public'));
+
 server.get('/', (req, res) => {
   const html = ReactDOM.renderToString(React.createElement(Html));
   res.send('<!doctype html>\n' + html);
