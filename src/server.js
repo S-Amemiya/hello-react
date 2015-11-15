@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/server';
 import Html from './components/Html';
 
 const server = global.server = express();
+const port = process.env.PORT || 5000;
 
 server.use(express.static('build/public'));
 
@@ -12,4 +13,5 @@ server.get('/', (req, res) => {
   res.send('<!doctype html>\n' + html);
 })
 
-server.listen(process.env.PORT || 5000);
+server.listen(port);
+console.log(`The server is started on port ${port}`);
